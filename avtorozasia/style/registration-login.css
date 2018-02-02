@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*p{
+    font-family: Roboto, sans-serif;
+}
+body {
+    background-color: #f1f5f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registration, .LogIn, .restoring-email{
+    width: 430px;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 0 17px #898585;
+    margin: 0 auto;
+}
+
+.LogIn, .restoring-email{
+    display: none;
+}
+
+ .center_block {
+    border-radius: 5px;
+    padding: 43px 40px 40px 40px;
+    background-color: #fff;
+    position: relative;
+}
+ 
+
+ .registration .photo-header{
+    max-width: 100%;    
+    background: url("../image/777777.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 176px;
+}
+
+.LogIn .photo-header{
+    max-width: 100%;    
+    background: url("../image/777777.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 176px;
+}
+
+.center_block .enter_body a.facebook {
+    padding: 15px 80px;
+    background-color: #4264aa;
+    border: 1px solid #4264aa;
+    color: #fff;
+    border-radius: 7px;
+    display: block;
+    position: relative;
+    font-family: Roboto, sans serif;
+    font-size: 13px
+}
+
+.center_block .enter_body a.facebook i {
+    display: block;
+    position: absolute;
+    left: 23px;
+    font-size: 20px
+}
+
+.center_block .enter_body a.facebook:hover {
+    text-decoration: none;
+}
+
+.center_block .enter_body a.google {
+    padding: 15px 50px;
+    background-color: transparent;
+    border: 1.1px solid #eeeded;
+    color: #000;
+    border-radius: 7px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 13px
+}
+
+.center_block .enter_body a.google:hover {
+    text-decoration: none;
+    border: 1.1px solid #515151
+}
+
+.center_block .enter_body a.google:before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-image: url(../image/google_ico.png);
+    left: 23px;
+    position: absolute
+}
+
+.center_block .enter_body p {
+    color: #565555;
+    margin-top: -10px;
+    margin-bottom: 0;
+  /*  font-family: Roboto-Medium;*/
+    font-size: 13px;
+}
+
+.center_block .enter_body p.bottomP {
+    color: #d2d2d2;
+    margin-bottom: 10px;
+    font-family: Roboto-Regular
+}
+
+.center_block .enter_body p.bottomP span a {
+    color: #515151;
+    text-decoration: none;
+    font-family: Roboto-Medium;
+    font-size: 13px
+}
+
+.center_block .enter_body p.bottomP a {
+    color: #515151;
+    text-decoration: none
+}
+
+ .center_block .enter_body input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #d2d0d0;
+    padding-left: 55px;
+    padding-right: 25px;
+    border-radius: 7px
+}
+
+ .center_block .enter_body i.inputI {
+    color: #ccc;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -34px;
+    margin-left: 20px;
+    display: block;
+    width: 30px
+}
+
+.center_block .enter_body a#login {
+    display: block;
+    border-radius: 30px;
+    background-color: #868788;
+    color: #fff;
+    border: none;
+    padding: 13px 70px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.center_block .enter_body a#login:hover {
+    background-color: #e37000;
+    text-decoration: none;
+}
+
+.center_block .enter_body p.error {
+    display: none;
+    color: #e45644;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ .enter .header_enter {
+    background-image: url(../image/header_LogIn_bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    max-height: 175px;
+    min-height: 175px
+}
+
+.enter .header_enter h2 {
+    color: #fff;
+    line-height: 175px;
+    font-size: 36px;
+    font-family: Roboto-Bold
+}
+
+.LogIn .enter_body .restoring{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #4264aa;
+}
+
+.LogIn .enter_body .text-input{
+    font-size: 16px;
+    color: #8f8e8e;
+}
+
+.LogIn .enter_body .email-restoring{
+    padding-left: 12px;
+}
+
+.restoring-email .enter_body .restoring{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #4264aa;
+}
+
+.restoring-email .enter_body  .text-input{
+    font-size: 16px;
+    color: #8f8e8e;
+}
+
+.restoring-email .enter_body .email-restoring {
+    padding-left: 12px;
+}
+
+
+
+@media (min-width:0px) and (max-width:320px) {
+   
+}
+
+@media (min-width:321px) and (max-width:480px) {
+  
+}
+
+@media (min-width:481px) and (max-width:768px) {
+  
+}
+
+@media (min-width:769px) and (max-width:992px) {
+   
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+   
+}

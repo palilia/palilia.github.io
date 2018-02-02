@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="description" content="Описание страницы сайта." />
+	<meta name="keywords" content="Описание страницы сайта." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Login</title> 
+
+	<link rel="stylesheet" type="text/css" href="style/registration-login.css"> 
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body> 
+<div class="container">	
+
+<div class="registration">
+<div class="photo-header"></div>
+<div class="center_block"> 	
+		  <div class="enter_body">
+            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Войти с помощю Facebook </a> <br>
+            <a href="#" class="google"><strong>Войти с помощю Google </strong></a> <br>
+            <p>или  с помощью email</p> <br>
+            <input type="text" placeholder="Email" class="email" id="email"><i class="fa fa-envelope inputI" aria-hidden="true"></i><br>
+            <input type="password" placeholder="Пароль" class="password" id="password"><i class="fa fa-lock inputI" aria-hidden="true"></i><br>
+            <br>
+			<p class="error"><em>неверный логин или пароль</em></p>
+            <a id="login" onclick="LogIn();">Вход</a><br>          
+            <p class="bottomP" id="IcoBefore">У вас еще нет аккаунта? <span><a href="#" onclick="login();"><strong>Регистрация</strong> </a></span> <br>
+            <span><a href="#" onclick="forget();"><strong>Забыли пароль?</strong> </a></span> </p>
+            <p class="foot"></p>
+           
+          
+          </div>
+    </div>
+</div><br>
+
+
+<div class="LogIn">
+<div class="photo-header"></div>
+      <div class="center_block">   	
+		  <div class="enter_body ">
+            <p class="restoring">Восстановление доступа1</p> <br>
+            <p class="text-input">
+            	Введите Ваш  адрес электронной почты, который вы использовали при регистрации. Мы пришлем вам письмо с вашим логином и ссылкой для восстановления пароля.
+            </p><br>
+             <input type="password"  class="email-restoring"><br>
+              <a id="login" onclick="Go();">Отправить</a><br>
+           
+          
+          </div>
+    </div>
+</div><br>
+
+<div class="restoring-email">
+<div class="photo-header"></div>
+      <div class="center_block">    
+      <div class="enter_body">
+            <p class="restoring">Восстановление доступа</p> <br>
+            <p class="text-input">
+              Введите ваши новые данные
+            </p><br>
+             <input type="password"  placeholder="Введите пароль" class="email-restoring"><br>
+             <input type="password"  placeholder="Введите еmail" class="email-restoring"><br>
+              <a id="login" onclick="Save();">Сохранить</a><br>
+           
+          
+          </div>
+    </div>
+</div>
+
+
+</div>
+   
+<script src= "script/main.js"></script>
+</body>
+
+<footer>
+	
+</footer>
+
+		
+</body>
+</html>
+
+
+
+
+
+

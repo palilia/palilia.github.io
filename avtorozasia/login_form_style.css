@@ -1,0 +1,251 @@
+.reveal-modal-new {
+    position absolute;
+    display none;
+    width 370px;
+    height 500px;
+    background-color white;
+    padding 15px;
+    z-index 10000;
+    border 1px #ffffff solid;
+    border-radius 3px;
+    color #333333;
+    font-family 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size 28px;
+    text-align center;
+    box-shadow 15px 10px 70px #333333;
+}
+.reveal-modal-new .reveal-modal-close-button{
+    cursor pointer;
+    positionabsolute;
+    width37px;
+    top15px;
+    right15px;
+}
+.reveal-modal-new .reveal-modal-icon{
+    width100%;
+    text-align center;
+    margin-top35px;
+    height90px;
+}
+.reveal-modal-new .auth-title{
+    width100%;
+    text-align center;
+    margin-top15px;
+}
+.reveal-modal-new .login-my{
+    width300px;
+    height35px; 
+    border-radius3px;
+    padding7px;
+    font-family 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size21px;
+}
+
+.restoring-email {
+    width 430px;
+    margin 0 auto;
+	margin-top 33px;
+    display block;
+}
+
+.photo-header {
+    max-width 100%;
+    background url(..img777777.png);
+    background-size contain;
+    background-repeat no-repeat;
+    border-radius 5px;
+    min-height 176px;
+}
+.new-border{
+	width 420px;
+    box-shadow 0 0 17px #898585;
+    margin 0 auto;
+    border-radius 5px;
+    background-color #fff;
+    position relative;
+}
+
+.new-border .restoring {
+    font-size 30px;
+    text-transform uppercase;
+    color #4264aa;
+	text-align center;
+	margin-bottom 16px;
+	line-height 1;
+}
+
+.new-border .text-input {
+    font-size 16px;
+    color #8f8e8e;
+	text-align center;
+}
+.change-login-input{
+    width350px;
+    height45px;
+    border 1px solid #d2d0d0;
+    border-radius7px;
+    padding7px;
+    font-family 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-bottom 21px;
+    margin-left -115px;
+}
+
+.change-login-inputplaceholder{
+	font-size 15px;
+}
+.change-pass-submit{    
+	width 350px;
+    background #868788;
+    color #fff;
+    border 1px solid #868788;
+	border-radius 30px;
+    padding 13px 70px;
+    text-transform uppercase;
+    margin-bottom 50px;
+    margin-left -113px;
+	margin-top 15px;
+    text-decoration none;
+}
+.change-pass-submithover{
+	background #e37000;
+	border 1px solid #e37000;
+}
+textareafocus, inputfocus{
+    outline none;
+}
+.reveal-modal-new  .login-email{
+    border1px #3ca9e2 solid;
+    text-align left;
+    color#333333;
+    margin-top20px;
+}
+.reveal-modal-new .login-pass{
+    border1px #c2c0ca solid;
+    text-align left;
+    color#333333;
+    margin-top10px;
+}
+.reveal-modal-new .login-submit,.reveal-modal-new .login-forgot{
+   !--
+   text-aligncenter;
+   vertical-align middle;
+   bordernone;
+   color#ffffff;
+   font-weight bold;
+   background #ff8116;  For browsers that do not support gradients 
+   background -webkit-linear-gradient(#ffb96d, #ff8116);  For Safari 5.1 to 6.0 
+   background -o-linear-gradient(#ffb96d, #ff8116);  For Opera 11.1 to 12.0 
+   background -moz-linear-gradient(#ffb96d, #ff8116);  For Firefox 3.6 to 15 
+   background linear-gradient(#ffb96d, #ff8116);  Standard syntax 
+   margin-top10px;
+   cursorpointer;
+   padding 0 3px 45px 0;
+   font-size 50
+    px;
+   font-weight 400; --
+   display block;
+   border-radius 30px;
+   background-color #868788;
+   color #fff;
+   border none;
+   padding 13px 70px;
+   text-transform uppercase;
+   margin-top 20px;
+   margin-bottom 5px;
+   font-size 14px;
+   text-decoration none;
+   cursor pointer;
+}
+.checkbox-remember-forget{
+    cursor pointer;
+}
+.reveal-modal-new .login-forgot{
+    displaynone;
+    font-size16px;
+    padding7px 0 7px 0;
+}
+.error-message{
+    color#ff0000;
+    font-size 13px;
+	width 350px;
+    text-align center;
+    margin-left -126px;
+	margin-top -10px;
+}
+.reveal-modal-new .login-remember{
+    text-align center;
+    color#b0b0b2;
+    margin-top15px;    
+    height40px; 
+    displaytable;
+    width100%;
+}
+.reveal-modal-new .login-remember .remember-inner{
+    width358px;
+    text-align left;
+    displaytable-row;
+}
+.reveal-modal-new .login-remember .td-left{
+    width358px;
+    text-align center;
+    displaytable-cell;
+    padding-left10%;
+}
+.reveal-modal-new .login-remember .td-right{
+    width328px;
+    text-align left;
+    displaytable-cell;
+    padding-left2%;
+}
+.reveal-modal-new .login-remember .checkbox-remember{
+    text-align left;
+    color#2e96cc;
+}
+.reveal-modal-new .login-remember .checkbox-remember-label{
+    text-align left;
+    color#b0b0b2;
+    font-size 16px;
+}
+.reveal-modal-new .login-remember .checkbox-remember-forget{
+    text-align left;
+    color#2e96cc;
+    font-size 16px;
+}
+.reveal-modal-new .lets-register{
+    background-color #eeedf1;
+    height58px;
+    margin 20px 0 0 -4%;
+    width 108%;
+    font-size18px;
+    displaytable;    
+}
+.reveal-modal-new .lets-register .remember-inner{
+    width358px;
+    text-align left;
+    displaytable-row;
+}
+
+.reveal-modal-new .lets-register .td-left{
+    width200px;
+    text-align center;
+    displaytable-cell;
+    padding-left11%;
+}
+
+.reveal-modal-new .lets-register .td-right{
+    width158px;
+    text-align center;
+    displaytable-cell;
+} 
+.reveal-modal-new .lets-register .td-left .no-account{    
+    color#b0b0b2;
+    font-size 14px;
+}
+ .reveal-modal-new .lets-register .td-right .register-link{
+    color#2e96cc;
+    font-size 14px;
+    cursorpointer;
+} 
+.close-reveal-modal{
+    cursor pointer;
+}
