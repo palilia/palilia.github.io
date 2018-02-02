@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Общая информация</title> 
+	<link rel="stylesheet" type="text/css" href="style/main.css"> 
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<script src="script/jquery-3.1.1.min.js"></script> 
+	<script src="script/script.js"></script> 
+	<script src="script/dropzone.js"></script>
+</head>
+
+<body> 
+	<div class="wrapper">
+		<h1>Регистрация</h1>
+		<div class="content_wrapper">
+			<div class="wrapper_menu">	
+				<ul class="menu">
+					<li class="first active"><a href="index.html"><span>1</span>Общая информация</a></li>
+					<li class="sec"><a href="location.html"><span>2</span>Местоположение</a></li>
+					<li class="third"><a href="confidentiality.html"><span>3</span>Конфидециальность</a></li>
+				</ul>
+			</div>
+
+			<div class="content">
+				<h2 class="info_block">Общая информация</h2>
+				<input class="input_" type="text" placeholder="Если Вы хотите в полной мере воспользоваться нашим сайтом - вводите достоверные данные">
+				<div class="form_wrapper">
+					<div class="content_center">
+						<div>
+							<input name="name" class="input1" type="text" placeholder="Имя*" data-validation="length" required><br>
+							<div class="error-message">Это поле является обязательным</div>
+						</div>
+						<div>	
+							<input name="surname" class="input2" type="text" placeholder="Фамилия*" data-validation="length" required><br>
+							<div class="error-message">Это поле является обязательным</div>
+						</div>
+						<div id="email">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<input name="email" class="input3" type="email" placeholder="Email*" data-validation="length" />
+							<div class="error-message">Это поле является обязательным</div>
+						</div>
+
+
+						<div id="user-type">
+							<p class="selected-item">Тип пользователя</p><i class="fa fa-sort-desc" aria-hidden="true"></i>
+							<ul class="menu-items">
+								<li><a href="#">Частное лицо</a></li>
+								<li><a href="#">Организация</a></li>
+								<li><a href="#">Волонтер</a></li>
+								<li><a href="#">Волонтерская группа</a></li>
+							</ul>
+						</div>
+
+						<div class="clear"></div>
+						<input class="input5" type="text" placeholder="Название организации*" >
+					</div>		
+
+					<div class="form_item">
+						<form action="/file-upload" class="dropzone photo" id="my-awesome-dropzone">	
+							<img class="form_image" src="images/images/image_03.png">
+							<p class="put_on">Перетащите<br> сюда фото или нажмите</p>
+							<button class="save_file" type="button">Выбрать файл</button>
+							<p class="form_small">(Макс.размер 5 Мб,<br> формат JPEG, PNG)</p>
+						</form>
+					</div>
+				</div>	
+			</div>
+
+			<footer class="close_button">				
+				<i class="fa fa-chevron-left" aria-hidden="true"></i><input class="w_button_back" type="submit" value="Назад" />
+				<input class="w_button_go" type="submit" value="Продолжить" onclick="next()" /><i class="fa fa-chevron-right" aria-hidden="true"></i>
+			</footer>			
+		</div>
+	</div>
+	
+</body>
+</html>
