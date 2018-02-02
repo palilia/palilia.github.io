@@ -1,0 +1,415 @@
+.row-shop{
+	height: 70px;
+	width: 762px;
+	background-color: #f1f0ef;
+	border-top: 2px solid #f86303;
+	margin-top: 29px;
+	margin-bottom: 29px;
+}
+
+.row-shop p{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #333;
+  padding-top: 2%;
+}
+
+.row-shop .fa{
+	background-color: #f86303;
+	padding: 8px 9px;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.product-content{
+	width: 1030px !important;
+}
+
+.product-content .content{
+	
+}
+
+.slider{
+  position: relative;
+}
+
+.mark-row{
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.mark-row a{
+  padding: 9px 15px;
+  background: #d9182a;
+  color: #fff;
+}
+
+.mark-row a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.right-col{
+	width: 470px;
+	float: right;
+}
+
+.right-col h1{
+  font-size: 40px;
+  font-family: "PlayfairDisplay";
+  color: rgb(16, 15, 15);
+  line-height: 1.125;
+  text-align: left;
+  margin: 0;
+}
+
+.nw-star .rating{
+	margin-right: 15px;
+}
+
+.old-price{
+	font-size: 22px;
+    font-family: "Roboto";
+    color: #e1e0e0;
+    float: left;
+    margin-right: 15px;
+}
+
+.review{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(132, 147, 168);
+  line-height: 1.7;
+}
+
+.cost-shop {
+    font-size: 22px;
+    font-family: "Roboto";
+    color: rgb(72, 138, 26);
+    margin-bottom: 18px;
+}
+
+.inputBlock{
+	float: left;
+	margin-right: 27px;
+}
+.code-prod{
+	background: #fff3b5;
+    padding: 3px 15px;
+    float: right;
+    margin-right: 167px;
+    margin-top: 8px;
+}
+
+.code-prod > p {
+    color: #787878;
+    font-size: 11px;
+    display: inline;
+    margin-right: 6px;
+}
+
+.code-prod > span{
+	color: #6c6858;
+	font-size: 11px;
+}
+
+.text-about{
+	margin-top: 110px;
+}
+
+.share p{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  margin-right: 20px;
+  float: left;
+}
+
+.share .fa{
+	display: inline;
+    color: #bec5cd;
+    margin-right: 4px;
+    padding: 7px 9px;
+    border: 1px solid #bec5cd;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.share a:hover{
+	text-decoration: none;
+}
+
+.buy-btn {
+	margin-top: 60px;
+}
+
+.buy-btn a{
+	text-transform: uppercase;
+	color: #c7c7c7;
+	padding: 15px 70px;
+	border: 2px solid #c7c7c7;
+	border-radius: 3px;
+}
+
+.buy-btn a:hover{
+	text-decoration: none;
+	color: #c7c7c7;
+}
+
+.abt-cont{
+	  margin-top: 40px;
+    width: 100%;
+    clear: both;
+    height: 1155px;
+}
+
+.left-blk{
+	width: 700px;
+	float: left;
+}
+
+.left-blk .text-abt{
+	margin-bottom: 65px;
+}
+
+.left-blk .text-abt > p{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  display: inline;
+}
+
+.left-blk .text-abt > span{
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(94, 93, 93);
+  line-height: 1.4;
+  text-align: left;
+}
+
+.the-same h2{
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(72, 76, 78);
+  margin-bottom: 29px;
+}
+
+.block-row .img-block {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-right: 33px;
+    float: left;
+}
+
+.title-img-block {
+    margin-top: 17px;
+}
+
+.left-bar{
+  height: 20px;
+  line-height: 0;
+  margin-top: 14px;
+}
+
+.left-bar .rat-numb{
+  margin-left: 9px;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #9da9b9 !important;
+}
+
+.form-l{
+  height: 45px;
+  float: none;
+}
+
+.reviews-block{
+  width: 100%;
+}
+
+.reviews-block h3{
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(72, 76, 78);
+  padding-bottom: 30px;
+  font-weight: normal;
+  border-bottom: 1px solid #c9c5c5;
+}
+
+.photo-rw{
+  margin: 38px 0 52px 0; 
+}
+
+.photo-rw img{
+  width: 78px;
+  height: 72px;
+  border-radius: 50%;
+  float: left;
+}
+
+.text-rw {
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.text-rw .name-author{
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: rgb(91, 92, 92);
+  float: left;
+}
+
+.text-rw .date{
+  margin-left: 75%;
+}
+
+.text-rw .text{
+  margin-top: 41px;
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(91, 92, 92);
+  line-height: 1.5;
+}
+
+.price-your{
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  margin-bottom: 15px;
+}
+
+.left-b:before{
+  content: " ";
+  border-right: 1px solid #c9c5c5;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.kontakt-form{
+  margin-top: 30px;
+}
+
+textarea.form-control {
+    height: auto;
+    margin-bottom: 12px;
+}
+
+input[type=text]::after{
+  /*background: url(../image/icons.png) no-repeat;
+  margin-right: 8px;*/
+  content: "\f002";
+}
+
+.btn-default-my{
+  background: #049e4c;
+  color: #fff;
+  margin-bottom: 20px !important;
+}
+
+.btn-default-my:hover{
+  color: #fff !important;
+}
+
+
+/**********SIDEBAR**********/
+
+.right-blk{
+  float: right;
+  width: 300px;
+}
+
+.category{
+  margin-bottom: 100px;
+}
+
+.category .h2-side, .stock-row .h2-side{
+    height: 26px;
+    border-bottom: 1px solid #ddd7d7;
+    margin-bottom: 30px;
+}
+
+.category h2, .stock-row h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f96403;
+    width: 189px;
+    height: 25px;
+    font-size: 16px;
+    font-family: "PlayfairDisplay";
+}
+
+.email {
+    border-bottom: 1px solid #ddd7d7;
+    padding: 18px 25px;
+    cursor: pointer;
+}
+
+.email  p{
+  display: inline;
+  font-size: 13px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: rgb(81, 81, 81);
+  text-align: left;
+}
+
+.category .email:hover{
+  background-color: #f7f6f6;
+}
+
+.email .numb{
+  float: right;
+}
+
+.stock{
+  margin-bottom: 126px;
+}
+
+.stock-row{
+  padding: 18px 10px;
+  border-bottom: 1px solid #d2d0d0;
+}
+
+.stock-row a:hover{
+  text-decoration: none;
+}
+
+.stock-row img{
+  width: 83px;
+  height: 64px;
+  float: left;
+  margin-right: 20px;
+}
+
+.stock-row .infocont{
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.stock-row .price{
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: rgb(74, 155, 1);
+  font-style: italic;
+  text-align: left;
+}
+
+.banner{
+  width: 300px;
+  height: 400px;
+  outline: 1px solid #f6ac82;
+  line-height: 1.2;
+  font-size: 45px;
+  padding: 14px;
+}
