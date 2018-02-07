@@ -1,0 +1,194 @@
+body{
+	background: #424040 !important;
+}
+
+
+.registration{
+	
+}
+
+.photo-header{
+	background-color: #524865;
+    border-bottom: 1px solid #b0b0e0;
+    padding: 2px;
+    height: 58px;
+}
+
+.logo{
+	width: 825px;
+	margin: 0 auto;
+}
+
+.logo img{
+	width: 50px;
+	float: left;
+}
+
+.logo li{
+	color: #fff;
+    float: right;
+    display: inline;
+    margin-right: 47px;
+    font-family: TS;
+    font-weight: bold;
+}
+
+.logo li a{
+	color: #c1baba;
+	text-decoration: none;
+}
+
+.logo li a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.center_block{
+	width: 850px;
+    margin: 0 auto;
+}
+
+.center_block .enter_body{
+	margin-top: 85px;
+	text-align: center;
+}
+
+.center_block .enter_body input {
+	position: relative;
+    width: 31%;
+    height: 34px;
+    margin-left: 4px;
+    border: 1px solid #d2d0d0;
+    padding-left: 19px;
+    padding-right: 25px;
+    border-radius: 7px;
+}
+
+
+.error{
+	color: red;
+	display: none;
+	margin-top: 8px;
+    font-weight: bold;
+}
+
+.center_block #login{
+	background: #2bad41;
+    padding: 8px 120px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/**************MODAL**************/
+
+#modal_form {
+	width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed;
+    top: 56%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+     display: none; 
+     opacity: 0; 
+    z-index: 5;
+    padding: 58px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+
+#modal_form .enter_body{
+	margin-top: 85px;
+	text-align: center;
+}
+
+#modal_form  input {
+	position: relative;
+    width: 81%;
+    height: 34px;
+    margin-left: 9%;
+    margin-bottom: 21px;
+    border: 1px solid #d2d0d0;
+    padding-left: 19px;
+    padding-right: 25px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#modal_form #login {
+    background: #2bad41;
+    padding: 8px 120px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#modal_form #login:hover{
+	text-decoration: none;
+}
+
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+
+
+.other_block{
+	width: 850px;
+    margin: 0 auto;
+}
+
+.other_block input{
+	position: relative;
+    width: 31%;
+    height: 34px;
+    margin-left: 4px;
+    border: 1px solid #d2d0d0;
+    padding-left: 19px;
+    padding-right: 25px;
+    border-radius: 7px;
+    margin-bottom: 9px;
+}
+
+.enter_body{
+	width: 712px;
+}
+
+.enter_body #login {
+    background: #2bad41;
+    padding: 8px 120px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.enter_body #login:hover{
+	text-decoration: none;
+}
+
+.enter_body #passw{
+	float: left;
+}
