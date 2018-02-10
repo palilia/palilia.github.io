@@ -16,7 +16,6 @@ body{
 }
 
 .main-wrapper .border-t {
-    width: 161rem;
     display: block;
     margin: 0 auto;
     z-index: 99;
@@ -69,7 +68,7 @@ body{
 .border-t .left-bord{
     border: 108px solid transparent;
     border-bottom: 0px solid transparent;
-    border-left: 805px solid transparent;
+    border-left: 864px solid transparent;
     border-right: 0px solid transparent;
     border-top: 440px solid #00a0de;
     float: left;
@@ -78,15 +77,15 @@ body{
 .border-t .right-bord{
     border: 108px solid transparent;
     border-bottom: 0px solid transparent;
-    border-right: 805px solid transparent;
+    border-right: 864px solid transparent;
     border-left: 0px solid transparent;
     border-top: 440px solid #1390c1;
     float: right;
 }
 
 .border-t .bergen{
-    width: 22.5rem;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 .border-t .bergen img{
@@ -110,11 +109,10 @@ body{
 }
 
 .cntr-block{
-    width: 172rem;
-    margin: 0 auto;
-    margin-top: -39.3rem;    
+	display: block;
+    margin-top: -39.3rem;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 1rem;   
 }
 
 .cntr-block > div{
@@ -236,7 +234,7 @@ body{
     font-size: 9rem;
     font-weight: bold;
     top: 67rem;
-    left: 26%;
+    left: 23%;
     z-index: 1;
 }
 
