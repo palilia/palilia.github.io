@@ -8,7 +8,7 @@ body{
 }
 
 .main-wrapper {
-    width: 191rem;
+    width: 173rem;
     height: 234rem;
     overflow: hidden;
     margin: 0 auto;
@@ -95,7 +95,6 @@ body{
 
 .main-wrapper  .clouds{
     position: relative;
-    width: 193rem;
     background: url(../images/images/main-clouds_02.png) no-repeat;
     height: 86rem;
     margin: 0 auto;
@@ -111,7 +110,7 @@ body{
 }
 
 .cntr-block{
-    width: 192rem;
+    width: 172rem;
     margin: 0 auto;
     margin-top: -39.3rem;    
     text-align: center;
@@ -175,7 +174,6 @@ body{
 }
 
 .room-block{
-    width: 192rem;
     position: relative;
     background: url(../images/images/cent_11.png) no-repeat center;
     height: 93rem;
@@ -194,10 +192,10 @@ body{
 
 .into-cloud2{
     background: url(../images/images/clouds_06.png) no-repeat;
-    height: 43rem;
+    height: 50rem;
     display: block;
     margin-right: 17rem;
-    width: 82rem;
+    width: 72rem;
     float: right;
 }
 
@@ -215,22 +213,20 @@ body{
 } 
 
 .down-wh .left-blk{
-    border: 28.1rem solid transparent;
-    border-right: 99rem solid #C79E8C;
+    border: 32.1rem solid transparent;
+    border-right: 92rem solid #C79E8C;
     display: block;
-    float: left;
     position: absolute;
-    left: -31rem;
+    left: -37.5rem;
 }
 
 .down-wh .right-blk{
-    border: 28.2rem solid transparent;
-    border-left: 96.3rem solid #9C7160;
+    border: 32.1rem solid transparent;
+    border-left: 92rem solid #9C7160;
     display: block;
     height: 0;
-    float: right;
     position: absolute;
-    right: -28.6rem;
+    right: -37.5rem;
 }
 
 .love-bl{
