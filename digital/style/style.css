@@ -1,0 +1,279 @@
+body{
+	background: #fff !important;
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+	-webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.main-wrapper {
+    width: 100%;
+    height: 800px;
+    
+}
+
+.main-wrapper .border-t {
+    width: 161rem;
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.main-wrapper .border-t ul li{
+    display: inline-block;
+}
+
+.border-t .left-bord ul{
+    margin-top: -38.3rem;
+    color: #fff;
+    margin-left: -50rem;
+}
+
+.border-t .left-bord li a{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    color: #fff;
+    outline: 1px solid #fff;
+    padding: 1rem 4rem;
+}
+
+.border-t .left-bord li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.border-t .right-bord ul{
+    margin-top: -38.3rem;
+    color: #fff;
+    margin-right: -50rem;
+}
+
+.border-t .right-bord li a{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    color: #fff;
+    outline: 1px solid #fff;
+    padding: 1rem 4rem;
+}
+
+.border-t .right-bord li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.border-t .left-bord{
+    border: 108px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 805px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 440px solid #00a0de;
+    float: left;
+    }
+
+.border-t .right-bord{
+    border: 108px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 805px solid transparent;
+    border-left: 0px solid transparent;
+    border-top: 440px solid #1390c1;
+    float: right;
+}
+
+.border-t .bergen{
+    width: 22.5rem;
+    margin: 0 auto;
+}
+
+.border-t .bergen img{
+    margin-top: -21rem;
+}
+
+.main-wrapper  .clouds{
+    position: relative;
+    width: 193rem;
+    background: url(../images/images/main-clouds_02.png) no-repeat;
+    height: 86rem;
+    margin: 0 auto;
+    right: 0;
+    top: -5rem;
+}
+
+.main-clouds{
+    background: url(../images/images/cnt-cloud_15.png) no-repeat;
+    background-position: center;
+    height: 45rem;
+    opacity: 0.7;
+}
+
+.cntr-block{
+    width: 91rem;
+    margin: 0 auto;
+    margin-top: -39.3rem;
+}
+
+.cntr-block > div{
+    display: inline-block;
+    margin-right: 8.2rem;
+}
+
+.cntr-block img{
+    position: relative;
+}
+
+.cntr-block .cnt-bnt{
+    margin-left: -18rem;
+    height: 16rem;
+    width: 17rem;
+    margin-bottom: 3rem;
+}
+
+.cntr-block .first p {
+    background: #a9860e;
+}
+
+.cntr-block .second p {
+    background: #b95a0c;
+}
+
+.cntr-block .third p {
+    background: #266e18;
+}
+
+.cntr-block p{
+    position: absolute;
+    width: 16.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+    bottom: 4.4rem;
+    padding: 1.1rem;
+    margin-left: 1.3rem;
+}
+
+.main-wrapper  .least{
+    position: absolute;
+    width: 62rem;
+    left: 0;
+    background: url(../images/images/leaves_02.png) no-repeat left;
+    height: 64rem;
+    top: -4rem;
+    z-index: 999;
+}
+
+.main-wrapper  .least2{
+    position: absolute;
+    width: 73rem;
+    right: 0;
+    background: url(../images/images/leaves_04.png) no-repeat right;
+    height: 64rem;
+    top: -4rem;
+    z-index: 999;
+}
+
+.room-block{
+    width: 192rem;
+    position: relative;
+    background: url(../images/images/cent_11.png) no-repeat center;
+    height: 93rem;
+    display: block;
+    margin-bottom: -110rem;  
+}
+
+.into-cloud{
+    background: url(../images/images/clouds_06.png) no-repeat left;
+    height: 25rem;
+    display: block;
+    margin-left: 11rem;
+    width: 73rem;
+    float: left;
+}
+
+.into-cloud2{
+    background: url(../images/images/clouds_06.png) no-repeat;
+    height: 43rem;
+    display: block;
+    margin-right: 17rem;
+    width: 82rem;
+    float: right;
+}
+
+.into-cloud3{
+    background: url(../images/images/clouds_06.png) no-repeat;
+    height: 42rem;
+    display: block;
+    margin-left: 47rem;
+    width: 82rem;
+}
+
+.down-wh{
+    width: 100%;
+    height: 45rem;
+    margin: 0 auto;
+    margin-top: 0;
+} 
+
+.down-wh .left-blk{
+    border: 28.7rem solid transparent;
+    border-right: 98rem solid #f5f5f5;
+    display: block;
+    float: left;
+    position: absolute;
+    left: -29rem;
+}
+
+.down-wh .right-blk{
+    border: 29.2rem solid transparent;
+    border-left: 98rem solid #fff;
+    display: block;
+    height: 0;
+    float: right;
+    position: absolute;
+    right: -32.6rem;
+}
+}
+
+.main-wrapper .dub{
+    background: url(../images/images/cnt-blk_42.png) no-repeat;
+    height: 25rem;
+    position: absolute;
+    left: 18rem;
+    right: 0;
+    bottom: -133%;
+}
+
+.main-wrapper  .buildings{
+    width: 100%;
+    left: 0;
+    background: url(../images/images/main_09.png) no-repeat;
+    height: 175rem;
+    margin: 0 auto;
+    right: 0;
+    z-index: 99;
+}
+
+
+
+
+
+@media screen and (min-width:375px) and (max-width:767px) {
+
+	
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	.main-wrapper {
+    height: 1000px;
+	}
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1366px) {
+
+
+}
