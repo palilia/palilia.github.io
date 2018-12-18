@@ -16,16 +16,16 @@ $('.main-wrapper').mousemove(function(e){
 });
 
 $('.main-wrapper').mousemove(function(e){
-	var offsetX =(($(window).width() / 2) - e.pageX) * 0.2;
-	var offsetY =(($(window).height() / 2) - e.pageY) * 0.1;
-	$('.dub').css('margin-left', offsetX + 'px');
-	$('.dub').css('margin-bottom', offsetY + 'px');
+	var offsetX =(($(window).height() / 3) - e.pageY) * 0.1;
+	var offsetY =(($(window).wight() / 4) - e.pageX) * 0.4;
+	$('.dub').css('margin-right', offsetX + 'px');
+	$('.dub').css('margin-top', offsetY + 'px');
 });
 
 
 document.onmousemove = animateC;
 
-var colors = ['#ccc', '#6cf', 'eaba13a'];
+var colors = ['#ccc', '#6cf', '#4ed436'];
 
 function animateC (e) {
 	var circle = document.createElement('div');
